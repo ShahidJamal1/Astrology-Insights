@@ -1,17 +1,17 @@
-const zodiacSigns = {
-  Aries: "♈",
-  Taurus: "♉",
-  Gemini: "♊",
-  Cancer: "♋",
-  Leo: "♌",
-  Virgo: "♍",
-  Libra: "♎",
-  Scorpio: "♏",
-  Sagittarius: "♐",
-  Capricorn: "♑",
-  Aquarius: "♒",
-  Pisces: "♓",
-};
+const zodiacSigns = [
+  "♑ Capricorn", // Jan
+  "♒ Aquarius", // Feb
+  "♓ Pisces", // Mar
+  "♈ Aries", // Apr
+  "♉ Taurus", // May
+  "♊ Gemini", // Jun
+  "♋ Cancer (The Nurturer)", // Jul
+  "♌ Leo", // Aug
+  "♍ Virgo", // Sep
+  "♎ Libra", // Oct
+  "♏ Scorpio", // Nov
+  "♐ Sagittarius", // Dec
+];
 
 // Based on Date, size 31
 const compliments = [
@@ -147,3 +147,4 @@ form.addEventListener("submit", (e) => {
 
   document.getElementById("result").textContent = text;
 });
+
