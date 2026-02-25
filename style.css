@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #d2f35b, #e7eaec);
+    background: linear-gradient(to bottom, #f3f04a, #e7eaec);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    background: #dee91a;
+    background: #dae32b;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
